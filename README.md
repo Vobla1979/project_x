@@ -17,9 +17,8 @@
 а) Бэкенд через PowerShell
 1. Перейти в папку бэкенда:
 cd backend
-2. Создать и активировать виртуальное окружение:
-python -m venv .venv
-.venv\Scripts\Activate.ps1
+2. Установить пакет:
+pip install pydantic-settings
 3. Установить зависимости:
 pip install -r requirements.txt
 4. Запустить сервер:
