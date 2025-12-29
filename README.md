@@ -28,11 +28,15 @@ http://127.0.0.1:8000/docs
 
 б) Фронтенд 
 1. Установить Node.js (поставить галочку "Add to PATH" (важно!))
-2. Перейти в папку фронтенда:
+2. cd C:\Users\illik\Downloads\project_x-main\project_x-main
+3. Создать package.json:
+npm create vite@latest frontend -- --template react-ts
+4. Установить пакеты:
 cd frontend
-3. Установить зависимости:
 npm install
-4. Запустить dev‑сервер:
+5. Добавить react-router-dom
+npm install react-router-dom
+6. Запустить dev‑сервер:
 npm run dev
-5. Открыть приложение в браузере:
+7. Открыть приложение в браузере:
 http://127.0.0.1:5173
