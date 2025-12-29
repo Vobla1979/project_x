@@ -34,7 +34,7 @@ npm create vite@latest frontend -- --template react-ts
 4. Установить пакеты:
 cd frontend новая строка
 npm install
-5. Добавить react-router-dom
+5. Добавить react-router-dom:
 npm install react-router-dom
 6. Запустить dev‑сервер:
 npm run dev
