@@ -13,7 +13,6 @@ class UserCreate(UserBase):
 
 class UserUpdate(BaseModel):
     username: Optional[str] = Field(None, min_length=3, max_length=50)
-    # при желании: можно добавить смену пароля и т.д.
 
 
 class UserOut(UserBase):
