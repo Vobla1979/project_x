@@ -31,7 +31,7 @@ http://127.0.0.1:8000/docs
 2. Запустить Powershell в папке frontend
 3. Создать package.json:
 npm create vite@latest frontend -- --template react-ts
-4. Установить пакеты:
+4. Установить пакеты
 cd frontend
 npm install
 5. Добавить react-router-dom
