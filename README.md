@@ -28,7 +28,7 @@ http://127.0.0.1:8000/docs
 
 б) Фронтенд 
 1. Установить Node.js (поставить галочку "Add to PATH" (важно!))
-2. cd C:\Users\illik\Downloads\project_x-main\project_x-main
+2. Запустить Powershell в папке frontend
 3. Создать package.json:
 npm create vite@latest frontend -- --template react-ts
 4. Установить пакеты:
